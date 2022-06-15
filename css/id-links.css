@@ -41,6 +41,18 @@ nav .links {
 .lf p {
   margin-left: -9%;
 }
+.p {
+  background-image: url("../images/profile1.png");
+}
+.e {
+  background-image: url("../images/edit1.png");
+}
+.fr{
+  background-image: url("../images/find1.png");
+}
+.lf {
+  background-image: url("../images/lang1.png");
+}
 .p{
   background-image: url("../images/profile.png");
 }
