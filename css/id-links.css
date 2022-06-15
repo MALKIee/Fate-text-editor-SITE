@@ -33,7 +33,7 @@ nav .links {
   height: 75px;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: 250ms;
+/*   transition: 250ms; */
 }
 .e p {
   margin-left: -20%;
