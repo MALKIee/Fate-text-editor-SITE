@@ -173,6 +173,9 @@ body {
   }
 }
 @media (max-width : 475px) {
+  .download a {
+    margin-left: -20px;
+  }
   .logos {
     width: 35%;
   }
