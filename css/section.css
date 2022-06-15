@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+  --orng: #ff4000;
+  --wyt: rgb(250, 250, 250);
+  --gry: rgb(40, 40, 40);
+}
+
+body {
+  overflow-x: hidden;
+}
+.imgs {
+  width: 70%;
+  margin-left: 40%;
+  margin-top: -4%;
+}
+.pre {
+  color: white;
+  width: 100%;
+  height: 630px;
+  padding-top: 40px;
+  background-color: var(--gry);
+  align-items: center;
+}
+.download {
+  text-align: center;
+  display: block;
+  width: 42%;
+  font-family: 'Montserrat', sans-serif;
+}
+#i1, #i2 {
+  width: 750px;
+  /* filter:drop-shadow(0px 0px 5px black); */
+}
+#i1 {
+  margin-top: -435px;
+  margin-left: 10px;
+}
+#i2 {
+  margin-top: -330px;
+  margin-left: 120px;
+}
+.download p {
+  text-align: center;
+  color: rgb(175, 175, 175);
+  transition: 0.2s;
+  line-height: 1.0;
+
+}
+.download p:hover {
+  color: white;
+}
+.download a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 21px;
+  color: var(--wyt);
+  background-color: var(--orng);
+  padding: 20px 35px;
+  border-radius: 25px;
+  transition: 0.4s;
+}
+.download a:hover { 
+  color: var(--orng);
+  background-color: var(--wyt);
+}
+.title {
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.te {
+  color: var(--orng);
+}
+.underT {
+  text-transform: lowercase;
+  font-weight: 555;
+}
+.logo {
+  width: 150px;
+}
+.license {
+  height: 110px;
+  padding: 16px 0px;
+  color: var(--wyt);
+  position: relative;
+  background-color: var(--gry);
+}
+.license nav {
+  width: 70%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Hind Siliguri', sans-serif;
+  margin: auto;
+}
+.license p {
+  margin-left: -65%;
+}
+.twt {
+  text-decoration: none;
+  color: var(--wyt);
+}
+.logos {
+  display: flex;
+  width: 11%;
+  justify-content: space-between;
+  align-items: center;
+}
+.logos a, .back {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 200ms;
+}
+.tlogo {
+  background-image: url("../images/twitter.png");
+}
+.tlogo:hover {
+  background-image: url("../images/twitter1.png");
+}
+.glogo {
+  background-image: url("../images/github.png");
+}
+.glogo:hover {
+  background-image: url("../images/github1.png");
+}
+.back {
+  background-image: url("../images/up.png");
+}
+.back:hover {
+  background-image: url("../images/up1.png");
+}
+.fin {
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+@media (max-width : 1150px) {
+  .license nav {
+    width: 85%;
+  }
+}
+@media (max-width : 998px) {
+  .download {
+    width: 40%;
+  }
+}
+@media (max-width : 880px) {
+  .download {
+    margin: auto;
+  }
+  .license nav {
+    width: 95%;
+  }
+}
+@media (max-width : 800px) {
+  .license p{
+    display: none;
+  }
+  .license nav {
+    width: 80%;
+  }
+  .logos {
+    width: 25%;
+  }
+}
+@media (max-width : 475px) {
+  .logos {
+    width: 35%;
+  }
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root {
+  --orng: #ff4000;
+  --wyt: rgb(250, 250, 250);
+  --rd: #ff2121;
+  --grn: #10bf04;
+  --blu: #092beb;
+  --ppl: #8c07d9;
+}
+nav .links {
+  margin: auto ;
+}
+.links a {
+  padding: 0px;
+  text-decoration: none;
+  color: var(--gry);
+}
+.links a p {
+  text-align: center;
+  padding-top:70px;
+}
+.links {
+  padding: 35px 0px 70px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat',sans-serif;
+}
+.p, .e, .fr, .lf {
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 250ms;
+}
+.e p {
+  margin-left: -20%;
+}
+.lf p {
+  margin-left: -9%;
+}
+.p{
+  background-image: url("../images/profile.png");
+}
+.e {
+  background-image: url("../images/edit.png");
+}
+.fr{
+  background-image: url("../images/find.png");
+}
+.lf {
+  background-image: url("../images/lang.png");
+}
+.p:hover {
+  color: var(--rd);
+  background-image: url("../images/profile1.png");
+}
+.e:hover {
+  color: var(--grn);
+  background-image: url("../images/edit1.png");
+}
+.fr:hover{
+  color: var(--blu);
+  background-image: url("../images/find1.png");
+}
+.lf:hover {
+  color: var(--ppl);
+  background-image: url("../images/lang1.png");
+}
+@media (max-width : 705px) {
+  .links {
+    width: 90%;
+  }
+}
+@media (max-width : 410px) {
+  .links {
+    display: none;
+  }
+}
