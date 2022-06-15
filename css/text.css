@@ -158,17 +158,19 @@ strong:hover {
   #d4 .pgph {padding-top: 100px;} 
 }
 @media (max-width : 705px) {
-  .find-txt, .language-txt {height: 750px;}
+  .find-txt {height: 777px;}
+  .language-txt {height: 750px;}
   .profile-txt {height: 630px;}
+  .edit-txt {height: 550px;}
   .im3 {margin-top: 440px;}
-  .im {margin-top: 275px;}
-  #d2 .pgph {padding-top: 30px;}
+  .im {margin-top: 290px;}
+  #d2 .pgph {padding-top: 100px;}
   .start h1 {
     font-size: 17px;
   }
 }
 @media (max-width : 410px) {
   .im3 {margin-top: 490px;}
-  .find-txt {height: 810px;}
+  .find-txt {height: 840px;}
   #d4 .pgph {padding-top: 50px;}
 }
