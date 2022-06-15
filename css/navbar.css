@@ -11,6 +11,7 @@ body {
 }
 #top {
   height: 60px ;
+  overflow: hidden;
 }
 header {
   font-family: 'Work Sans', sans-serif;
