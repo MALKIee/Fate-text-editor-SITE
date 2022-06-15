@@ -34,7 +34,7 @@ body {
 }
 #i1, #i2 {
   width: 750px;
-  /* filter:drop-shadow(0px 0px 5px black); */
+  filter:drop-shadow(0px 0px 5px black);
 }
 #i1 {
   margin-top: -435px;
@@ -78,8 +78,25 @@ body {
   color: var(--orng);
 }
 .underT {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.25rem;
   text-transform: lowercase;
   font-weight: 555;
+}
+.underT::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background-color: var(--wyt);
+  border-radius: 20px;
+  height: 3px;
+  transition: 300ms ease-out;
+}
+.underT:hover::before {
+  width: 100%;
 }
 .logo {
   width: 150px;
