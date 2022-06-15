@@ -21,6 +21,7 @@ header {
   top: 0px;
   position: fixed;
   filter: drop-shadow(0px 0px 3px black);
+  z-index: 1020;
 }
 .navbar {
   background-color: rgb(25, 25, 25);
