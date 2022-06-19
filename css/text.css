@@ -30,6 +30,9 @@
   display: flex;
   justify-content: space-between;
 }
+.cont1 p {
+  padding: 10% 0px;
+}
 strong {
   transition: 200ms;
   font-weight: 900;
