@@ -55,8 +55,8 @@ strong:hover {
 #d2:hover>div>.im2,
 #d3:hover>div>.im3,
 #d4:hover>div>.im4 {
-  width: 200px;
-  height: 200px;
+  width: 195px;
+  height: 195px;
 }
 .learn h2 {
   font-family: 'Hind Siliguri', sans-serif;
@@ -71,7 +71,6 @@ strong:hover {
 }
 .pgph {
   width: 56%;
-  height: 50%;
 }
 .im img, .im2 img, .im3 img {
   width: 100px;
