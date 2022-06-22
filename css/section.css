@@ -101,14 +101,14 @@ body {
 .logo {
   width: 150px;
 }
-.license {
+footer {
   height: 110px;
   padding: 16px 0px;
   color: var(--wyt);
   position: relative;
   background-color: var(--gry);
 }
-.license nav {
+footer nav {
   width: 70%; 
   display: flex;
   align-items: center;
@@ -116,7 +116,7 @@ body {
   font-family: 'Hind Siliguri', sans-serif;
   margin: auto;
 }
-.license p {
+footer p {
   margin-left: -65%;
 }
 .twt {
@@ -161,7 +161,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 @media (max-width : 1150px) {
-  .license nav {
+  footer nav {
     width: 85%;
   }
 }
@@ -174,15 +174,15 @@ body {
   .download {
     margin: auto;
   }
-  .license nav {
+  footer nav {
     width: 95%;
   }
 }
 @media (max-width : 800px) {
-  .license p{
+  footer p{
     display: none;
   }
-  .license nav {
+  footer nav {
     width: 80%;
   }
   .logos {
