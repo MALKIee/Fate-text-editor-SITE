@@ -149,6 +149,8 @@ footer p {
   background-image: url("../images/github1.png");
 }
 .back {
+  border: none;
+  background-color: transparent;
   background-image: url("../images/up.png");
 }
 .back:hover {
