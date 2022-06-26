@@ -179,7 +179,12 @@
             <a href="https://github.com/MALKIee/Fate-text-editor-SITE.git" class="glogo" target="_blank"></a>
           </div>
           <p>Follow <a href="https://twitter.com/Mr74243126" class="twt" target="_blank">@malki.ee</a></p>
-          <a href="#top" class="back"></a>
+          <button class="back"></button>
+          <script>
+            document.querySelector(".back").onclick = function () {
+              window.scrollTo({top : 0, behavior: "smooth"});
+            }
+          </script>
         </nav>
       </div>
       <div class="fin">&copy; 2022 Fate, Inc. by MALKI.abderrahman for Windows.</div>
