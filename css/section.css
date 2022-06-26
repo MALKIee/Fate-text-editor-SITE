@@ -151,6 +151,7 @@ footer p {
 .back {
   border: none;
   background-color: transparent;
+  cursor: pointer;
   background-image: url("../images/up.png");
 }
 .back:hover {
