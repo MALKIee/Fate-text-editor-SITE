@@ -46,17 +46,23 @@ strong:hover {
   font-size: 16px;
 }
 #d1, #d2, #d3, #d4 {
-  padding: 100px 0px;
+  padding: 60px 0px;
+  transition: .4s;
 }
 #d2, #d4 {
   background-color: var(--dbg);
 }
-#d1:hover>div>.im,
-#d2:hover>div>.im2,
-#d3:hover>div>.im3,
-#d4:hover>div>.im4 {
-  width: 195px;
-  height: 195px;
+#d1:hover .im,
+#d2:hover .im2,
+#d3:hover .im3,
+#d4:hover .im4 {
+  padding: 15px;
+}
+#d1:hover,
+#d2:hover,
+#d3:hover,
+#d4:hover {
+  padding: 75px 0;
 }
 .learn h2 {
   font-family: 'Hind Siliguri', sans-serif;
@@ -78,12 +84,12 @@ strong:hover {
 }
 .im4 img {width: 100px;}
 .im, .im2, .im3, .im4 {
-  width: 170px;
-  height: 170px;
   display: flex;
+  width: 175px;
+  height: 175px;
   align-items: center;
   justify-content: center;
-  border-radius: 100px;
+  border-radius: 50%;
   transition: 0.4s;
 }
 .im {
