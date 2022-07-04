@@ -47,7 +47,7 @@ strong:hover {
 }
 #d1, #d2, #d3, #d4 {
   padding: 60px 0px;
-  transition: .4s;
+  transition: .35s;
 }
 #d2, #d4 {
   background-color: var(--dbg);
@@ -90,7 +90,7 @@ strong:hover {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition: 0.4s;
+  transition: 0.35s;
 }
 .im {
   background-color: var(--rd);
