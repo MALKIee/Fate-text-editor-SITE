@@ -176,6 +176,7 @@ footer p {
 @media (max-width : 880px) {
   .download {
     margin: auto;
+    width: 100%;
   }
   footer nav {
     width: 95%;
