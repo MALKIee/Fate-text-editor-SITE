@@ -137,8 +137,11 @@ strong:hover {
   background-color: #d93600;
 }
 @media (max-width : 780px) {
-  .profile-txt, .edit-txt, .find-txt, .language-txt, .cont1 div {
-    display: block;
+  .edit-txt, .language-txt, .cont1 div {
+    flex-direction: column;
+  }
+  .profile-txt, .find-txt {
+    flex-direction: column-reverse;
   }
   .im, .im2, .im3, .im4, .pgph {
     margin: auto;
