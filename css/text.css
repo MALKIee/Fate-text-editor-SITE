@@ -143,6 +143,9 @@ strong:hover {
   .im, .im2, .im3, .im4, .pgph {
     margin: auto;
   }
+  .cont1 div div, .pgph {
+    width: 100%;
+  }
 }
 @media (max-width : 705px) {
   .start h1 {
